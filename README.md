@@ -14,10 +14,10 @@ Nodes are created from an external `.tsv` file. The columns of that file are as 
 
 So in a tree that looks like this
 
-        A
-      /   \
-    B       C
-  /        /
-D        E
+          A
+        /   \
+      B       C
+     /       /
+    D       E
 
 A is the root so it gets no path in its 3rd column. B is a left child so it is L and C is the right child of the root, so it is R. D is the left child of the left child so it is LL, while E is the left child of the right child so it is RL.
