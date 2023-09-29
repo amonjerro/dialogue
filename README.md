@@ -5,6 +5,7 @@ This is a system that implements a very basic dialogue tree. It works as follows
 The tree is composed of several dialogue nodes. Nodes currently have two types: Information Nodes and Decision Nodes.
   - *Information Nodes*: Show information to the user and immediately advance to their next left child. Will ignore any right children unless in the current implementation.
   - *Decision Nodes*: Await a response from the user. If the response is Y or y, the dialogue proceeds down the left path. Otherwise, dialogue proceeds down the right path.
+
 This means this tree is currently a binary tree. However, extending the number of children and the implementation of nodes can allow for more complex linking and interactions within the tree.
 
 Nodes are created from an external `.tsv` file. The columns of that file are as follows:
