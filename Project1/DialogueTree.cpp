@@ -21,7 +21,7 @@ void Tree::Load(DataSource src) {
 		row.clear();
 		getline(fileIn, line);
 		std::stringstream s(line);
-		while (getline(s, word, '&')) {
+		while (getline(s, word, '\t')) {
 			row.push_back(word);
 		}
 		DataRow dr = translateData(row);

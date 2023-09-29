@@ -37,7 +37,7 @@ public:
 		std::cin >> decisionValue;
 	}
 	Node* ProcessResponse() {
-		if (decisionValue == 'Y') {
+		if (decisionValue == 'Y' || decisionValue == 'y') {
 			return leftChild;
 		}
 		else {

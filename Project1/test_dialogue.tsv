@@ -1,0 +1,6 @@
+1	Welcome to the dialogue tree. This is a test!		
+2	Would you like to go down the left path?	L	
+1	This is what happens when you go down the left path.	LL	
+1	The text you're seeing here corresponds to the right path.	LR	
+1	This is one level deeper down the left path.	LLL	
+1	Another level down the right path.	LRL	
